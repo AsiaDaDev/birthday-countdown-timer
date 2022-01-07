@@ -7,3 +7,8 @@ Some of the resources that was referenced to make this project and following pro
 * [W3Schools Online Web Tutorial](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
 * [10 JavaScript Projects in 10 Hours - Coding Challenge](https://www.youtube.com/watch?v=dtKciwk_si4&ab_channel=FlorinPop)
+
+Some of the resources used to make this project includes:
+* [Figma](https://www.figma.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Unsplash](https://unsplash.com/photos/qWlkCwBnwOE)
