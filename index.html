@@ -7,9 +7,10 @@
     <title>Birthday Countdown</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
-    <h1>My Flirty 30 Party</h1>
+    <h1 id="partyTitle">My Flirty 30 Party</h1>
     <div class="countdown-container">
         <div class="weeks-container">
             <p class="large-counter-font" id="weeks">0</p>
@@ -32,9 +33,11 @@
             <span class="mid-text-font">Seconds</span>
         </div>
     </div>
-    <span class="regular-text">Countdown to Wednesday, November 16, 2022</span>
+    <span class="regular-text">
+        Countdown to Wednesday, November 16, 2022 - <span id="dayCounter">0</span> Days Left!
+    </span>
     <div class="signup-container">
-        <span class="regular-text">Sign up to get your official invite and party reminders!</span>
+        <span class="regular-text">Sign up to get an official invite and party reminders!</span>
         <form id="invite-form">
             <input type="email" id="mail" placeholder="Your email...">
             <button type="submit">
